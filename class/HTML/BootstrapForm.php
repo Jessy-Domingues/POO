@@ -1,5 +1,6 @@
 <?php
-class BootstrapForm extends form{
+namespace Tutoriel\HTML;
+class BootstrapForm extends Form{
 
 /**
      * param $html Code html à entourer
@@ -13,7 +14,7 @@ class BootstrapForm extends form{
     /**
      * param $name string
      * return string
-     */
+     */  
     public function input($name) //ici $name fait référence au nomdu champ
     {
         return $this->surround(

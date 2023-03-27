@@ -1,4 +1,6 @@
 <?php
+namespace Tutoriel\HTML;
+
 /**
  * Class Form
  * Permet de générer un formulaire rapidement et simplement
